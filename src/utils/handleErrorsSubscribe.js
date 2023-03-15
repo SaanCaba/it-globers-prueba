@@ -1,5 +1,4 @@
 export function handleErrorSubscribeForm(email) {
-	console.log(email);
 	if (email.length === 0) return 'Por Favor coloque un correo.';
 	if (!email.includes('@')) return "Por favor coloque '@' en el correo";
 	if (email.length > 75) return 'Por favor coloque un correo más corto';
