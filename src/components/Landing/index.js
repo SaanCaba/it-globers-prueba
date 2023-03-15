@@ -1,6 +1,6 @@
 import React from 'react';
-
-import backImage_1 from '../../assets/backgroundImages/backImage_1.jpg';
+import { backgroundImages } from '../../data/imagesSlider';
+import ImageSlider from '../ImageSlider';
 
 import './landing.scss';
 
@@ -14,7 +14,7 @@ const Landing = () => {
 			<div className='contBtnLanding'>
 				<button>SHOP</button>
 			</div>
-			<img className='imgLanding' src={backImage_1} />
+			<ImageSlider images={backgroundImages} />
 		</section>
 	);
 };

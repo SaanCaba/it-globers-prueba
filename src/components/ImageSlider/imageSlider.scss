@@ -1,0 +1,30 @@
+.dotsContainer {
+	display: flex;
+	gap: 10px;
+	.contDot {
+		border-radius: 50%;
+		height: 18px;
+		width: 18px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: none;
+		.dot {
+			height: 10px;
+			width: 10px;
+			background-color: transparent;
+			border-radius: 50%;
+			border: 1px solid white;
+			cursor: pointer;
+			user-select: none;
+		}
+		.activeDot {
+			background-color: white;
+			transition: 1s linear;
+		}
+	}
+	.contDotActive {
+		border: 1px solid white;
+		transition: 1s linear;
+	}
+}
