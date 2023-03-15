@@ -1,0 +1,37 @@
+.sectionLanding {
+	height: 100vh;
+	background-image: url(https://www.happers.es/server/Portal_0010689/img/galeria/carrusel_happers_to_go_s7_30455.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	gap: 100px;
+	.contTitleLanding {
+		height: min-content;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 100px;
+		span {
+			text-align: center;
+			color: white;
+			font-size: 70px;
+			margin-top: -30px;
+			font-family: 'Poppins', sans-serif;
+			letter-spacing: -5px;
+			text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.6);
+		}
+	}
+	.contBtnLanding {
+		margin-bottom: 30px;
+		button {
+			border: 3px solid rgb(255, 255, 255);
+			background: transparent;
+			color: white;
+			padding: 20px;
+			font-family: 'Poppins', sans-serif;
+			width: 130px;
+			letter-spacing: 3px;
+		}
+	}
+}

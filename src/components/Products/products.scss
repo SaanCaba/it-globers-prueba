@@ -1,0 +1,12 @@
+.sectionProducts {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	.contProductItem {
+		width: 100%;
+		height: 800px;
+		.title {
+			color: red;
+		}
+	}
+}

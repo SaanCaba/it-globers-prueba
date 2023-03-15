@@ -1,0 +1,62 @@
+.sectionNavBar {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	.contNavBar {
+		width: 100%;
+		background-color: transparent;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
+		.ulNavBar {
+			display: flex;
+			justify-content: center;
+			gap: 15px;
+			margin-top: 30px;
+			li {
+				list-style: none;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				border-right: 0.5px solid rgb(224, 224, 224);
+				padding-right: 15px;
+				gap: 10px;
+				span {
+					color: white;
+					font-weight: 700;
+					font-family: 'Poppins', sans-serif;
+				}
+				&:last-of-type {
+					border: none;
+					padding-right: 0px;
+				}
+			}
+		}
+		.contLogo {
+			margin-top: 30px;
+			margin-left: 35px;
+			color: white;
+			span {
+				font-family: 'Fredoka One', cursive;
+				font-size: 50px;
+			}
+		}
+		.contSettings {
+			margin-right: 35px;
+			display: flex;
+			justify-content: end;
+			margin-top: 30px;
+			height: min-content;
+			span {
+				border-right: 1px solid rgb(224, 224, 224);
+				padding-right: 10px;
+				color: white;
+				font-family: 'Poppins', sans-serif;
+				&:last-of-type {
+					border: none;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}
