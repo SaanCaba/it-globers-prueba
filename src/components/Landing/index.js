@@ -1,5 +1,7 @@
 import React from 'react';
 
+import backImage_1 from '../../assets/backgroundImages/backImage_1.jpg';
+
 import './landing.scss';
 
 const Landing = () => {
@@ -12,12 +14,7 @@ const Landing = () => {
 			<div className='contBtnLanding'>
 				<button>SHOP</button>
 			</div>
-			<img
-				className='imgLanding'
-				src={
-					'https://www.happers.es/server/Portal_0010689/img/galeria/carrusel_happers_to_go_s7_30455.jpg'
-				}
-			/>
+			<img className='imgLanding' src={backImage_1} />
 		</section>
 	);
 };
