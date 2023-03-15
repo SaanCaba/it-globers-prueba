@@ -1,15 +1,19 @@
 .contOnlyImg {
 	height: 100%;
-
 	position: relative;
 	display: flex;
-	.onlyImg {
+	.figureOnlyImg {
 		position: absolute;
 		width: 100%;
-		object-fit: cover;
 		height: 100%;
-		z-index: 1;
+		.onlyImg {
+			width: 100%;
+			object-fit: cover;
+			height: 100%;
+			z-index: 1;
+		}
 	}
+
 	.contBtn {
 		z-index: 999;
 		height: 100%;

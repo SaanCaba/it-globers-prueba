@@ -9,13 +9,13 @@ import Products from './components/Products';
 
 const App = () => {
 	return (
-		<div className='App'>
+		<main className='App'>
 			<NavBar />
 			<Landing />
 			<Products />
 			<CallToAction />
 			<Footer />
-		</div>
+		</main>
 	);
 };
 

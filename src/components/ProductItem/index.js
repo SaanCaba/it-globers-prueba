@@ -7,14 +7,16 @@ const ProductItem = ({ product }) => {
 	return (
 		<>
 			{product.onlyImg === true ? (
-				<div className='contOnlyImg'>
+				<section className='contOnlyImg'>
 					<div className='contBtn'>
 						<button>SHOP</button>
 					</div>
-					<img className='onlyImg' src={product.img} alt='imagenProducto' />
-				</div>
+					<figure className='figureOnlyImg'>
+						<img className='onlyImg' src={product.img} alt='imagenProducto' />
+					</figure>
+				</section>
 			) : (
-				<div className='contAllProduct'>
+				<section className='contAllProduct'>
 					<figure>
 						<img className='onlyImg' src={product.img} alt='imagenProducto' />
 					</figure>
@@ -28,7 +30,7 @@ const ProductItem = ({ product }) => {
 						<AiOutlineRight />
 						<span>VER MÁS</span>
 					</div>
-				</div>
+				</section>
 			)}
 		</>
 	);
